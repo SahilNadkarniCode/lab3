@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <Button onclick="window.location.href = './T1.html'">Task 1</Button>
+    <Button onclick="window.location.href = './T2.html'">Task 2</Button>
+    <Button onclick="window.location.href = './T3.html'">Task 3</Button>
+    <Button onclick="window.location.href = './T4.html'">Task 4</Button>
+    <Button onclick="window.location.href = './T5.html'">Task 5</Button>
+    <Button onclick="window.location.href = './T6.html'">Task 6</Button>
+    <Button onclick="window.location.href = './T7.html'">Task 7</Button>
+    <Button onclick="window.location.href = './T8.html'">Task 8</Button>
+    <style>
+       
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+      }
+       
+      .left-column {
+        background-color: #d3d3d3;
+        padding: 20px;
+      }
+       
+      .right-column {
+        background-color: #ccffcc;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="left-column">
+        <h2>Best Selling Books</h2>
+        <ul>
+          <li>The Four Winds by Kristin Hannah</li>
+          <li>The Code Breaker by Walter Isaacson</li>
+          <li>The Push by Ashley Audrain</li>
+          <li>The Sanatorium by Sarah Pearse</li>
+          <li>The Four Winds by Kristin Hannah</li>
+        </ul>
+      </div>
+      <div class="right-column">
+        <h2>Favorite Celebrities/Athletes</h2>
+        <ul>
+          <li>Shah Rukh Khan</li>
+          <li>Amir Khan</li>
+          <li>Salman Khan</li>
+          <li>Neeraj Chopra</li>
+          <li>Akshay Kumar</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
